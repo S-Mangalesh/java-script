@@ -1,7 +1,7 @@
 function repeat(){
     var iname=["lays","KitKat","7UP","coldcoffee","Fanta"];
     var imoney=[15,25,15,50,20];
-    alert("0. lays  Rs.15/-" + "\n"+"1. KitKat Rs.25/-"+ "\n"+"2. 7UP Rs.15/-"+ "\n"+"3. coldcoffee Rs.50/-"+ "\n"+"4. Fanta Rs.20/-");
+    console.log("0. lays  Rs.15/-" + "\n"+"1. KitKat Rs.25/-"+ "\n"+"2. 7UP Rs.15/-"+ "\n"+"3. coldcoffee Rs.50/-"+ "\n"+"4. Fanta Rs.20/-");
     var item=Number(prompt("Enter item num:"));
     alert("The item is:" + iname[item]);
     var money=Number(prompt("Enter ammount of You Have:"));
