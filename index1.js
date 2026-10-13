@@ -1,28 +1,3 @@
-let num1=Number(prompt("enter  your number:"));
- if(num1%2==0){
-     alert("even");
-}
-else{
-    alert("odd");
-}
- function table(){
-   let num2=Number(prompt("enter your number"));
-     for (let i=1; i<=10; i++){
-        alert(numb + "x" + i + " = " + (numb*i));
-   }
- }
- table();
-  
-numb=Number(prompt("Enter the number"));
-function natural(numb){
-    var tnumb=0;
-    for(let i=0;i<=numb;i++){
-        tnumb+=i
-    }
-    alert(tnumb);
-}
-natural(numb)
-
 function repeat(){
     var num=Number(prompt("Enter a Number To Analyise:"))
     if(num%2==0){
